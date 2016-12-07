@@ -13,9 +13,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var lockOptions = LockOptions()
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        window?.backgroundColor = UIColor.white
+        lockOptions.passwordKeySuffix = incePasswordKeySuffix
+        
+        if !LockManager.hasPassword(incePasswordKeySuffix) {
+            //未设置密码 设置密码
+            let lockVC = LockController()
+            lockVC.title = lockOptions.settingTittle
+            lockVC.type = .set
+            weak var weakSelf = self
+            lockVC.success = { (controller) in
+                weakSelf!.window?.rootViewController = MainViewController.shareInstance
+            }
+            window?.rootViewController = lockVC
+        }else {
+            //直接验证密码
+            let lockVC = LockController()
+            lockVC.title = lockOptions.verifyPassword
+            lockVC.type = .verify
+            weak var weakSelf = self
+            lockVC.success = { (controller) in
+                weakSelf!.window?.rootViewController = MainViewController.shareInstance
+            }
+            window?.rootViewController = lockVC
+        }
+        
+        window?.makeKeyAndVisible()
         return true
     }
 

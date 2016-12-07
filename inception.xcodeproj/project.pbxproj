@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12C8C63C1DF6BABC009B82D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C63B1DF6BABC009B82D6 /* AppDelegate.swift */; };
-		12C8C63E1DF6BABC009B82D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C63D1DF6BABC009B82D6 /* ViewController.swift */; };
-		12C8C6411DF6BABC009B82D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C8C63F1DF6BABC009B82D6 /* Main.storyboard */; };
 		12C8C6431DF6BABC009B82D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C8C6421DF6BABC009B82D6 /* Assets.xcassets */; };
 		12C8C6461DF6BABC009B82D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C8C6441DF6BABC009B82D6 /* LaunchScreen.storyboard */; };
 		12C8C6511DF6BABC009B82D6 /* inceptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6501DF6BABC009B82D6 /* inceptionTests.swift */; };
 		12C8C65C1DF6BABC009B82D6 /* inceptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C65B1DF6BABC009B82D6 /* inceptionUITests.swift */; };
+		12C8C66D1DF6BCD8009B82D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C66C1DF6BCD8009B82D6 /* AppDelegate.swift */; };
+		12C8C6761DF7E6BB009B82D6 /* ConstantsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6751DF7E6BB009B82D6 /* ConstantsFile.swift */; };
+		12C8C6A01DF7E991009B82D6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6931DF7E991009B82D6 /* Extensions.swift */; };
+		12C8C6A11DF7E991009B82D6 /* LockArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6941DF7E991009B82D6 /* LockArchive.swift */; };
+		12C8C6A21DF7E991009B82D6 /* LockCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6951DF7E991009B82D6 /* LockCenter.swift */; };
+		12C8C6A31DF7E991009B82D6 /* LockConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6961DF7E991009B82D6 /* LockConstants.swift */; };
+		12C8C6A41DF7E991009B82D6 /* LockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6971DF7E991009B82D6 /* LockController.swift */; };
+		12C8C6A51DF7E991009B82D6 /* LockDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6981DF7E991009B82D6 /* LockDataSource.swift */; };
+		12C8C6A61DF7E991009B82D6 /* LockDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6991DF7E991009B82D6 /* LockDelegate.swift */; };
+		12C8C6A71DF7E991009B82D6 /* LockInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C69A1DF7E991009B82D6 /* LockInfoView.swift */; };
+		12C8C6A81DF7E991009B82D6 /* LockItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C69B1DF7E991009B82D6 /* LockItemView.swift */; };
+		12C8C6A91DF7E991009B82D6 /* LockLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C69C1DF7E991009B82D6 /* LockLabel.swift */; };
+		12C8C6AA1DF7E991009B82D6 /* LockMainNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C69D1DF7E991009B82D6 /* LockMainNav.swift */; };
+		12C8C6AB1DF7E991009B82D6 /* LockOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C69E1DF7E991009B82D6 /* LockOptions.swift */; };
+		12C8C6AC1DF7E991009B82D6 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C69F1DF7E991009B82D6 /* LockView.swift */; };
+		12C8C6AE1DF7F04C009B82D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6AD1DF7F04C009B82D6 /* MainViewController.swift */; };
+		12C8C6B31DF7F150009B82D6 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6B21DF7F150009B82D6 /* DocumentViewController.swift */; };
+		12C8C6B51DF7F16D009B82D6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6B41DF7F16D009B82D6 /* PhotosViewController.swift */; };
+		12C8C6B71DF7F179009B82D6 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6B61DF7F179009B82D6 /* VideosViewController.swift */; };
+		12C8C6B91DF7F183009B82D6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6B81DF7F183009B82D6 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +52,6 @@
 
 /* Begin PBXFileReference section */
 		12C8C6381DF6BABC009B82D6 /* inception.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inception.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		12C8C63B1DF6BABC009B82D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12C8C63D1DF6BABC009B82D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12C8C6401DF6BABC009B82D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12C8C6421DF6BABC009B82D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12C8C6451DF6BABC009B82D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12C8C6471DF6BABC009B82D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +61,27 @@
 		12C8C6571DF6BABC009B82D6 /* inceptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inceptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C8C65B1DF6BABC009B82D6 /* inceptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inceptionUITests.swift; sourceTree = "<group>"; };
 		12C8C65D1DF6BABD009B82D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C8C66B1DF6BCD8009B82D6 /* inception-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "inception-Bridging-Header.h"; sourceTree = "<group>"; };
+		12C8C66C1DF6BCD8009B82D6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12C8C6751DF7E6BB009B82D6 /* ConstantsFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsFile.swift; sourceTree = "<group>"; };
+		12C8C6931DF7E991009B82D6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		12C8C6941DF7E991009B82D6 /* LockArchive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockArchive.swift; sourceTree = "<group>"; };
+		12C8C6951DF7E991009B82D6 /* LockCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockCenter.swift; sourceTree = "<group>"; };
+		12C8C6961DF7E991009B82D6 /* LockConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockConstants.swift; sourceTree = "<group>"; };
+		12C8C6971DF7E991009B82D6 /* LockController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockController.swift; sourceTree = "<group>"; };
+		12C8C6981DF7E991009B82D6 /* LockDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockDataSource.swift; sourceTree = "<group>"; };
+		12C8C6991DF7E991009B82D6 /* LockDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockDelegate.swift; sourceTree = "<group>"; };
+		12C8C69A1DF7E991009B82D6 /* LockInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockInfoView.swift; sourceTree = "<group>"; };
+		12C8C69B1DF7E991009B82D6 /* LockItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockItemView.swift; sourceTree = "<group>"; };
+		12C8C69C1DF7E991009B82D6 /* LockLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockLabel.swift; sourceTree = "<group>"; };
+		12C8C69D1DF7E991009B82D6 /* LockMainNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockMainNav.swift; sourceTree = "<group>"; };
+		12C8C69E1DF7E991009B82D6 /* LockOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockOptions.swift; sourceTree = "<group>"; };
+		12C8C69F1DF7E991009B82D6 /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		12C8C6AD1DF7F04C009B82D6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		12C8C6B21DF7F150009B82D6 /* DocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		12C8C6B41DF7F16D009B82D6 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		12C8C6B61DF7F179009B82D6 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		12C8C6B81DF7F183009B82D6 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +132,10 @@
 		12C8C63A1DF6BABC009B82D6 /* inception */ = {
 			isa = PBXGroup;
 			children = (
-				12C8C63B1DF6BABC009B82D6 /* AppDelegate.swift */,
-				12C8C63D1DF6BABC009B82D6 /* ViewController.swift */,
-				12C8C63F1DF6BABC009B82D6 /* Main.storyboard */,
+				12C8C6691DF6BBF4009B82D6 /* App */,
+				12C8C6731DF6BF7E009B82D6 /* Protocol */,
+				12C8C6771DF7E907009B82D6 /* Modules */,
+				12C8C66A1DF6BC7D009B82D6 /* Controllers */,
 				12C8C6421DF6BABC009B82D6 /* Assets.xcassets */,
 				12C8C6441DF6BABC009B82D6 /* LaunchScreen.storyboard */,
 				12C8C6471DF6BABC009B82D6 /* Info.plist */,
@@ -123,6 +159,103 @@
 				12C8C65D1DF6BABD009B82D6 /* Info.plist */,
 			);
 			path = inceptionUITests;
+			sourceTree = "<group>";
+		};
+		12C8C6691DF6BBF4009B82D6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C66C1DF6BCD8009B82D6 /* AppDelegate.swift */,
+				12C8C66B1DF6BCD8009B82D6 /* inception-Bridging-Header.h */,
+				12C8C6751DF7E6BB009B82D6 /* ConstantsFile.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		12C8C66A1DF6BC7D009B82D6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C66E1DF6BD3A009B82D6 /* TabBar */,
+				12C8C66F1DF6BD83009B82D6 /* Document */,
+				12C8C6701DF6BD9F009B82D6 /* Photos */,
+				12C8C6711DF6BDBB009B82D6 /* Videos */,
+				12C8C6721DF6BDDA009B82D6 /* Setting */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		12C8C66E1DF6BD3A009B82D6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C6AD1DF7F04C009B82D6 /* MainViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		12C8C66F1DF6BD83009B82D6 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C6B21DF7F150009B82D6 /* DocumentViewController.swift */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		12C8C6701DF6BD9F009B82D6 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C6B41DF7F16D009B82D6 /* PhotosViewController.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		12C8C6711DF6BDBB009B82D6 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C6B61DF7F179009B82D6 /* VideosViewController.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		12C8C6721DF6BDDA009B82D6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C6B81DF7F183009B82D6 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		12C8C6731DF6BF7E009B82D6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		12C8C6771DF7E907009B82D6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C6781DF7E950009B82D6 /* LockGesture */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		12C8C6781DF7E950009B82D6 /* LockGesture */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C6931DF7E991009B82D6 /* Extensions.swift */,
+				12C8C6941DF7E991009B82D6 /* LockArchive.swift */,
+				12C8C6951DF7E991009B82D6 /* LockCenter.swift */,
+				12C8C6961DF7E991009B82D6 /* LockConstants.swift */,
+				12C8C6971DF7E991009B82D6 /* LockController.swift */,
+				12C8C6981DF7E991009B82D6 /* LockDataSource.swift */,
+				12C8C6991DF7E991009B82D6 /* LockDelegate.swift */,
+				12C8C69A1DF7E991009B82D6 /* LockInfoView.swift */,
+				12C8C69B1DF7E991009B82D6 /* LockItemView.swift */,
+				12C8C69C1DF7E991009B82D6 /* LockLabel.swift */,
+				12C8C69D1DF7E991009B82D6 /* LockMainNav.swift */,
+				12C8C69E1DF7E991009B82D6 /* LockOptions.swift */,
+				12C8C69F1DF7E991009B82D6 /* LockView.swift */,
+			);
+			path = LockGesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +327,7 @@
 					12C8C6371DF6BABC009B82D6 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9KBX3YC8RP;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					12C8C64B1DF6BABC009B82D6 = {
@@ -237,7 +371,6 @@
 			files = (
 				12C8C6461DF6BABC009B82D6 /* LaunchScreen.storyboard in Resources */,
 				12C8C6431DF6BABC009B82D6 /* Assets.xcassets in Resources */,
-				12C8C6411DF6BABC009B82D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +395,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12C8C63E1DF6BABC009B82D6 /* ViewController.swift in Sources */,
-				12C8C63C1DF6BABC009B82D6 /* AppDelegate.swift in Sources */,
+				12C8C6A31DF7E991009B82D6 /* LockConstants.swift in Sources */,
+				12C8C6AA1DF7E991009B82D6 /* LockMainNav.swift in Sources */,
+				12C8C6A81DF7E991009B82D6 /* LockItemView.swift in Sources */,
+				12C8C66D1DF6BCD8009B82D6 /* AppDelegate.swift in Sources */,
+				12C8C6A41DF7E991009B82D6 /* LockController.swift in Sources */,
+				12C8C6A51DF7E991009B82D6 /* LockDataSource.swift in Sources */,
+				12C8C6A01DF7E991009B82D6 /* Extensions.swift in Sources */,
+				12C8C6B71DF7F179009B82D6 /* VideosViewController.swift in Sources */,
+				12C8C6AE1DF7F04C009B82D6 /* MainViewController.swift in Sources */,
+				12C8C6A61DF7E991009B82D6 /* LockDelegate.swift in Sources */,
+				12C8C6B51DF7F16D009B82D6 /* PhotosViewController.swift in Sources */,
+				12C8C6AC1DF7E991009B82D6 /* LockView.swift in Sources */,
+				12C8C6A91DF7E991009B82D6 /* LockLabel.swift in Sources */,
+				12C8C6A21DF7E991009B82D6 /* LockCenter.swift in Sources */,
+				12C8C6A71DF7E991009B82D6 /* LockInfoView.swift in Sources */,
+				12C8C6B91DF7F183009B82D6 /* SettingViewController.swift in Sources */,
+				12C8C6761DF7E6BB009B82D6 /* ConstantsFile.swift in Sources */,
+				12C8C6B31DF7F150009B82D6 /* DocumentViewController.swift in Sources */,
+				12C8C6A11DF7E991009B82D6 /* LockArchive.swift in Sources */,
+				12C8C6AB1DF7E991009B82D6 /* LockOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +450,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		12C8C63F1DF6BABC009B82D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12C8C6401DF6BABC009B82D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12C8C6441DF6BABC009B82D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,11 +558,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9KBX3YC8RP;
 				INFOPLIST_FILE = inception/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icehulu.inception;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "inception/App/inception-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +575,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9KBX3YC8RP;
 				INFOPLIST_FILE = inception/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icehulu.inception;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "inception/App/inception-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
