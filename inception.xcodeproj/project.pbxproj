@@ -31,6 +31,8 @@
 		12C8C6B51DF7F16D009B82D6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6B41DF7F16D009B82D6 /* PhotosViewController.swift */; };
 		12C8C6B71DF7F179009B82D6 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6B61DF7F179009B82D6 /* VideosViewController.swift */; };
 		12C8C6B91DF7F183009B82D6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6B81DF7F183009B82D6 /* SettingViewController.swift */; };
+		12C8C6BC1DF963FE009B82D6 /* LockSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C8C6BB1DF963FE009B82D6 /* LockSetViewController.swift */; };
+		4DCC1B4BCBB907287F67F3C3 /* Pods_inception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E41304F5A7A97BB9FACF51 /* Pods_inception.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,10 @@
 		12C8C6B41DF7F16D009B82D6 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		12C8C6B61DF7F179009B82D6 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
 		12C8C6B81DF7F183009B82D6 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		12C8C6BB1DF963FE009B82D6 /* LockSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockSetViewController.swift; sourceTree = "<group>"; };
+		B9534D33599C85642287C406 /* Pods-inception.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inception.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inception/Pods-inception.debug.xcconfig"; sourceTree = "<group>"; };
+		CA7977F4524D7AE60F7A5757 /* Pods-inception.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inception.release.xcconfig"; path = "Pods/Target Support Files/Pods-inception/Pods-inception.release.xcconfig"; sourceTree = "<group>"; };
+		F1E41304F5A7A97BB9FACF51 /* Pods_inception.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inception.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCC1B4BCBB907287F67F3C3 /* Pods_inception.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +123,8 @@
 				12C8C64F1DF6BABC009B82D6 /* inceptionTests */,
 				12C8C65A1DF6BABC009B82D6 /* inceptionUITests */,
 				12C8C6391DF6BABC009B82D6 /* Products */,
+				5AD59E1ABC89A5592A492A39 /* Pods */,
+				F9F146026DCEFBC1F4FE55BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +227,7 @@
 		12C8C6721DF6BDDA009B82D6 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				12C8C6BA1DF963F0009B82D6 /* LockSetting */,
 				12C8C6B81DF7F183009B82D6 /* SettingViewController.swift */,
 			);
 			path = Setting;
@@ -258,6 +268,31 @@
 			path = LockGesture;
 			sourceTree = "<group>";
 		};
+		12C8C6BA1DF963F0009B82D6 /* LockSetting */ = {
+			isa = PBXGroup;
+			children = (
+				12C8C6BB1DF963FE009B82D6 /* LockSetViewController.swift */,
+			);
+			path = LockSetting;
+			sourceTree = "<group>";
+		};
+		5AD59E1ABC89A5592A492A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9534D33599C85642287C406 /* Pods-inception.debug.xcconfig */,
+				CA7977F4524D7AE60F7A5757 /* Pods-inception.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9F146026DCEFBC1F4FE55BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E41304F5A7A97BB9FACF51 /* Pods_inception.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -265,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12C8C6601DF6BABD009B82D6 /* Build configuration list for PBXNativeTarget "inception" */;
 			buildPhases = (
+				B0561F1376EB6CA1E843EB4F /* [CP] Check Pods Manifest.lock */,
 				12C8C6341DF6BABC009B82D6 /* Sources */,
 				12C8C6351DF6BABC009B82D6 /* Frameworks */,
 				12C8C6361DF6BABC009B82D6 /* Resources */,
+				079977F0D6193F788BBB850E /* [CP] Embed Pods Frameworks */,
+				51451F77ABF891E1E4ACD783 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -390,6 +428,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		079977F0D6193F788BBB850E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inception/Pods-inception-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51451F77ABF891E1E4ACD783 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inception/Pods-inception-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0561F1376EB6CA1E843EB4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12C8C6341DF6BABC009B82D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -409,6 +495,7 @@
 				12C8C6AC1DF7E991009B82D6 /* LockView.swift in Sources */,
 				12C8C6A91DF7E991009B82D6 /* LockLabel.swift in Sources */,
 				12C8C6A21DF7E991009B82D6 /* LockCenter.swift in Sources */,
+				12C8C6BC1DF963FE009B82D6 /* LockSetViewController.swift in Sources */,
 				12C8C6A71DF7E991009B82D6 /* LockInfoView.swift in Sources */,
 				12C8C6B91DF7F183009B82D6 /* SettingViewController.swift in Sources */,
 				12C8C6761DF7E6BB009B82D6 /* ConstantsFile.swift in Sources */,
@@ -556,6 +643,7 @@
 		};
 		12C8C6611DF6BABD009B82D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9534D33599C85642287C406 /* Pods-inception.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -573,6 +661,7 @@
 		};
 		12C8C6621DF6BABD009B82D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7977F4524D7AE60F7A5757 /* Pods-inception.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -664,6 +753,7 @@
 				12C8C6621DF6BABD009B82D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12C8C6631DF6BABD009B82D6 /* Build configuration list for PBXNativeTarget "inceptionTests" */ = {
 			isa = XCConfigurationList;
@@ -672,6 +762,7 @@
 				12C8C6651DF6BABD009B82D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12C8C6661DF6BABD009B82D6 /* Build configuration list for PBXNativeTarget "inceptionUITests" */ = {
 			isa = XCConfigurationList;
@@ -680,6 +771,7 @@
 				12C8C6681DF6BABD009B82D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

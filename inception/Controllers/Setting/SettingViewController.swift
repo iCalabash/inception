@@ -7,11 +7,29 @@
 //
 
 import UIKit
+import Eureka
 
-class SettingViewController: UIViewController {
+class SettingViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        form +++ Section()
+            <<< ButtonRow("修改密码"){
+                $0.title = $0.tag
+//                $0.presentationMode = PresentationMode.show(controllerProvider: ControllerProvider.callback(builder: { return LockSetViewController()
+//                }), onDismiss: nil)
+                $0.onCellSelection({ [unowned self](cell, row) in
+                    LockManager.showModifyLockControllerIn(self, animate: true, success: { (controller) in
+                        print("success")
+                    }, forget: { (controller) in
+                        print("forget")
+                    })
+                })
+            }
+        
+        
+        
 
         // Do any additional setup after loading the view.
     }

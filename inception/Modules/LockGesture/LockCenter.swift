@@ -46,6 +46,15 @@ open class LockCenter {
         lockVC.success = success
         lockVC.forget = forget
     }
+    
+    open func showModifyLockControllerInViewController(_ controller: UIViewController, success: controllerHandle? = nil, forget: controllerHandle? = nil) -> UIViewController {
+        let lockVC = LockController()
+        lockVC.title = options.modifyPassword
+        lockVC.type = .modify
+        lockVC.success = success
+        lockVC.forget = forget
+        return lockVC
+    }
 
     fileprivate func lockVC(_ controller: UIViewController, animate:Bool) -> LockController {
         let lockVC = LockController()
