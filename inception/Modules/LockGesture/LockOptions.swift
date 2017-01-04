@@ -88,7 +88,7 @@ public struct LockOptions: LockDataSource, LockDelegate {
 
     // MARK: - 验证密码
 
-    public var verifyPassword = "验证密码" {
+    public var verifyPassword = "" {//"验证密码" {
         willSet {
             LockManager.options.verifyPassword = newValue
         }
@@ -136,7 +136,12 @@ public struct LockOptions: LockDataSource, LockDelegate {
     //MARK: - 颜色
 
     /// 背景色
-    public var backgroundColor = rgba(255, g: 255, b: 255, a: 1) {
+//    public var backgroundColor = rgba(255, g: 255, b: 255, a: 1) {
+//        willSet {
+//            LockManager.options.backgroundColor = newValue
+//        }
+//    }
+    public var backgroundColor = UIColor.flatBlackDark {
         willSet {
             LockManager.options.backgroundColor = newValue
         }
@@ -171,14 +176,14 @@ public struct LockOptions: LockDataSource, LockDelegate {
     }
 
     /// 警示文字颜色
-    public var warningTitleColor = rgba(254, g: 82, b: 92, a: 1) {
+    public var warningTitleColor = rgba(254, g: 12, b: 22, a: 1) {
         willSet {
             LockManager.options.warningTitleColor = newValue
         }
     }
 
     /// 普通文字颜色
-    public var normalTitleColor = rgba(192, g: 192, b: 192, a: 1) {
+    public var normalTitleColor = rgba(255, g: 255, b: 255, a: 1) {
         willSet {
             LockManager.options.normalTitleColor = newValue
         }
@@ -187,14 +192,14 @@ public struct LockOptions: LockDataSource, LockDelegate {
     // MARK: - LockDelegate
     
     /// 导航栏titleColor Default black
-    public var barTittleColor: UIColor = UIColor.black {
+    public var barTittleColor: UIColor = UIColor.red {
         willSet {
             LockManager.options.barTittleColor = newValue
         }
     }
     
     /// 导航栏底部黑线是否隐藏 Default false
-    public var hideBarBottomLine: Bool = false {
+    public var hideBarBottomLine: Bool = true {
         willSet {
             if newValue {
                 LockManager.options.hideBarBottomLine = newValue
@@ -203,14 +208,14 @@ public struct LockOptions: LockDataSource, LockDelegate {
     }
     
     /// barButton文字颜色 Default red
-    public var barTintColor: UIColor = UIColor.red {
+    public var barTintColor: UIColor = UIColor.white {
         willSet {
             LockManager.options.barTintColor = newValue
         }
     }
     
     /// barButton文字大小 Default 18
-    public var barTittleFont: UIFont = UIFont.systemFont(ofSize: 18) {
+    public var barTittleFont: UIFont = UIFont.systemFont(ofSize: 17) {
         willSet {
             LockManager.options.barTittleFont = newValue
         }

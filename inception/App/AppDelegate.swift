@@ -22,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.white
         lockOptions.passwordKeySuffix = incePasswordKeySuffix
         
+        window?.rootViewController = MainViewController.shareInstance
+        /*
         if !LockManager.hasPassword(incePasswordKeySuffix) {
             //未设置密码 设置密码
             let lockVC = LockController()
@@ -31,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             lockVC.success = { (controller) in
                 weakSelf!.window?.rootViewController = MainViewController.shareInstance
             }
-            window?.rootViewController = lockVC
+            window?.rootViewController = LockMainNav(rootViewController: lockVC)
         }else {
             //直接验证密码
             let lockVC = LockController()
@@ -41,9 +43,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             lockVC.success = { (controller) in
                 weakSelf!.window?.rootViewController = MainViewController.shareInstance
             }
-            window?.rootViewController = lockVC
+            window?.rootViewController = LockMainNav(rootViewController: lockVC)
         }
-        
+        */
         window?.makeKeyAndVisible()
         return true
     }

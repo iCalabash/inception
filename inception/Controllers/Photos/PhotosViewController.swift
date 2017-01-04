@@ -14,6 +14,7 @@ class PhotosViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        addPurpleBack()
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,6 +14,7 @@ class VideosViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        addNavyBlueBack()
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,6 +14,10 @@ class DocumentViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        addMintBack()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
