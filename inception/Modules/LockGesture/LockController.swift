@@ -78,6 +78,10 @@ open class LockController: UIViewController {
         }
         lockView = LockView(frame: CGRect(x: 0, y: label.frame.minY + 15, width: view.frame.width, height: view.frame.width), options: options)
         //添加顺序不要反 因为lockView的背景颜色不为透明
+        let image = UIImageView.init(frame: CGRect.init(x: 0, y: 0, width: mainScreenWidth, height: mainScreenHeight))
+        image.image = UIImage.init(named: "BlurPurple")
+        image.isUserInteractionEnabled = true
+        view.addSubview(image)
         view.addSubview(lockView)
         view.addSubview(label)
     }

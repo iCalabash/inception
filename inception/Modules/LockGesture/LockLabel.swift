@@ -11,7 +11,7 @@ class LockLabel: UILabel {
     init(frame: CGRect, options: LockOptions) {
         super.init(frame: frame)
         textAlignment = .center
-        backgroundColor = options.backgroundColor
+        backgroundColor = UIColor.clear//options.backgroundColor
         self.options = options
     }
 

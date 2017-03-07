@@ -8,7 +8,7 @@ class LockMainNav: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        /*
         navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: LockManager.options.barTittleColor, NSFontAttributeName: LockManager.options.barTittleFont]
 
         if LockManager.options.hideBarBottomLine {
@@ -19,6 +19,9 @@ class LockMainNav: UINavigationController {
             navigationBar.setMyBackgroundColor(backgroundColor)
         }
         navigationBar.tintColor = LockManager.options.barTintColor
+        
+        */
+        setNavigationBar()
     }
     
     override var preferredStatusBarStyle : UIStatusBarStyle {

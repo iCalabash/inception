@@ -63,7 +63,7 @@ class LockItemView: UIView {
     convenience init(options: LockOptions) {
         self.init(frame: CGRect.zero)
         self.options = options
-        backgroundColor = options.backgroundColor
+        backgroundColor = UIColor.clear//options.backgroundColor
     }
 
     override func draw(_ rect: CGRect) {

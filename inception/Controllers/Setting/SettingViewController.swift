@@ -12,8 +12,33 @@ class SettingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        addRedBack()
+        
+//        form +++ Section()
+//            <<< ButtonRow("修改密码"){
+//                $0.title = $0.tag
+//
+//                $0.onCellSelection({ [unowned self](cell, row) in
+//                    let lockVC = LockController()
+//                    lockVC.controller = self
+//                    lockVC.title = LockManager.options.modifyPassword
+//                    lockVC.type = .modify
+//                    self.present(LockMainNav(rootViewController: lockVC), animated: true, completion: nil)
+//                })
+//            }
+        
+        
+        
 
-        // Do any additional setup after loading the view.
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let lockVC = LockController()
+        lockVC.controller = self
+        lockVC.title = LockManager.options.modifyPassword
+        lockVC.type = .modify
+        self.present(LockMainNav(rootViewController: lockVC), animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

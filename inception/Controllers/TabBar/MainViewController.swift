@@ -7,8 +7,7 @@
 //
 
 import UIKit
-
-
+import ChameleonFramework
 
 class MainViewController: UITabBarController {
 
@@ -21,7 +20,7 @@ class MainViewController: UITabBarController {
 
     fileprivate func addChildVC() {
         let docuVC = DocumentViewController()
-        docuVC.title = "文档"
+        docuVC.title = "密码"
         let phoVC = PhotosViewController()
         phoVC.title = "相册"
         let videoVC = VideosViewController()
@@ -29,12 +28,28 @@ class MainViewController: UITabBarController {
         let setVC = SettingViewController()
         setVC.title = "设置"
         
-        let docuNC = UINavigationController(rootViewController: docuVC)
-        let phoNC = UINavigationController(rootViewController: phoVC)
-        let videoNC = UINavigationController(rootViewController: videoVC)
-        let setNC = UINavigationController(rootViewController: setVC)
+        let titleArray = ["密码","相册","视频","设置"]
+        let imageArray = ["Locked","Photos","Camera","Cog"]
+        
+        let docuNC = ICNavigationController(rootViewController: docuVC)
+        let phoNC = ICNavigationController(rootViewController: phoVC)
+        let videoNC = ICNavigationController(rootViewController: videoVC)
+        let setNC = ICNavigationController(rootViewController: setVC)
         
         viewControllers = [docuNC,phoNC,videoNC,setNC]
+        
+        
+        for i in 0...3 {
+            let vc = self.viewControllers![i]
+            let item = UITabBarItem.init(title: titleArray[i], image: UIImage.init(named: imageArray[i]), tag: 10+i)
+            vc.tabBarItem = item
+        }
+        
+        let tabBack = UIColor.init(white: 0, alpha: 0.2)
+        let tabBackSelect = UIColor.init(white: 0, alpha: 0.4)
+        tabBar.setColors(background: tabBack, selectedBackground: tabBackSelect, item: UIColor(hexString:"#929292"), selectedItem: UIColor.white)
+        tabBar.shadowImage = UIImage.init(color: Inconstants.lineColor, size: CGSize.init(width: mainScreenWidth, height: 0.5))
+        
     }
     
     override func didReceiveMemoryWarning() {

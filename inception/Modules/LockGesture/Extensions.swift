@@ -52,6 +52,15 @@ extension UINavigationBar {
         navigationBarImageView?.isHidden = false
     }
     
+    func setbottomHairline(color:UIColor) {
+        hideBottomHairline()
+        let rect = CGRect.init(x: 0, y: frame.height, width: frame.width, height: 0.5)
+        let view = UIView.init(frame: rect)
+        view.backgroundColor = color
+        addSubview(view)
+        
+    }
+    
     fileprivate func hairlineImageViewInNavigationBar(_ view: UIView) -> UIImageView? {
         if view.isKind(of: UIImageView.self) && view.bounds.height <= 1.0 {
             return (view as? UIImageView)

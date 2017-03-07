@@ -9,7 +9,7 @@ class LockInfoView: UIView {
 
     init(frame: CGRect, options: LockOptions) {
         super.init(frame: frame)
-        backgroundColor = options.backgroundColor
+        backgroundColor = UIColor.clear//options.backgroundColor
         
         for _ in 0..<9 {
             let itemView = LockItemView(options: options)
