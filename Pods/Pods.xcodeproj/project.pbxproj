@@ -1,0 +1,1644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00967A34C0778275E41D1CBA32E398F8 = {
+			isa = PBXBuildFile;
+			fileRef = FCE8E091770A6A61D8BC8C0FE6DF1C63;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		01C6F32401BCBE9FF9B3C095B031D92B = {
+			isa = PBXBuildFile;
+			fileRef = BF49675478D9AD11CE6C6DC3FF36F95A;
+		};
+		097AE4014349090D14C6C5637F8A3464 = {
+			isa = PBXBuildFile;
+			fileRef = 045A071A1EF9AB0AB44DB720E95010DB;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0D619A711F71058C9238B17E9AF48AFC = {
+			isa = PBXBuildFile;
+			fileRef = 99E56640B57456BE26B6A80F52AEE63A;
+			settings = {
+				COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0";
+			};
+		};
+		1236ECB96A915EC617957A42838CDD7B = {
+			isa = PBXBuildFile;
+			fileRef = 373D64A4EAED9B0367E81178B0DC2739;
+		};
+		15E113F19F49C0C0472242BD6E849A1B = {
+			isa = PBXBuildFile;
+			fileRef = 6D05F16B709039268E4E657E60CB7D66;
+		};
+		1736C9EB167121B7B4033DB3304686AE = {
+			isa = PBXBuildFile;
+			fileRef = E3212D7BC0710FE50E49B5AD2D9C0D0F;
+		};
+		183A0D8AF38E0EE20E47F1FEF9B37327 = {
+			isa = PBXBuildFile;
+			fileRef = 4B32ADD0F0F4A490A6F964644D554869;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		24E7D20FD204AF7AACB30A3B7C16388C = {
+			isa = PBXBuildFile;
+			fileRef = D64FB18347D6A19272A7C03568F92A4A;
+		};
+		3ECC23FFAE400A6B2658AAF2990D83BE = {
+			isa = PBXBuildFile;
+			fileRef = 8C0691131C19D0AFB3EBE5AA0F38FDBE;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		3F61BE79D4B46C119C136EDE960CE78C = {
+			isa = PBXBuildFile;
+			fileRef = EFF78E67FD988386A61658710EF18489;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		4194C2418EEF62E01342A820B5EF9C71 = {
+			isa = PBXBuildFile;
+			fileRef = B8AB62CA671CD95D1336F2D269E188F2;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		4A0E71E9E2BD86AA8CB6077A95CDC034 = {
+			isa = PBXBuildFile;
+			fileRef = 303CC18BBD4E72F9A606123E1B0B2439;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		4C6CEBA607BEA909A9CCB80C6AB6AE88 = {
+			isa = PBXBuildFile;
+			fileRef = 4954D021FE9C80F006E1DEC1B638DA1D;
+		};
+		5177B3B95985D0A2CF8376A6FD4488C2 = {
+			isa = PBXBuildFile;
+			fileRef = C9667B1984827C69BF9DFFFE92714EBE;
+		};
+		559D2A58E257644BD0AB1D35FA35643B = {
+			isa = PBXBuildFile;
+			fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6;
+		};
+		5CCC419BB423F48192FBA3C7D7D6B7DA = {
+			isa = PBXBuildFile;
+			fileRef = F5D532B1F909826130D3658AF6D89AB5;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		64C89D98B9D3B9C57971E1E137233980 = {
+			isa = PBXBuildFile;
+			fileRef = AC30723764E82F4218B059B78F5D36FA;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		6C63E2BEBE2BC08BD46F6A91D0A08143 = {
+			isa = PBXBuildFile;
+			fileRef = E0A2D4D7EC8405D10BD5324A4345A0B0;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		6FFDAD2F800BC27FCF40E92B71D88CF3 = {
+			isa = PBXBuildFile;
+			fileRef = 67022E8D9CAA3A99269823015E98622B;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		738E4E0555CE3C233C400AE87B9887E4 = {
+			isa = PBXBuildFile;
+			fileRef = 9E8C1EA9995AC90AD55C91998F7A2CE1;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		74695802583BDB0C0818AC1B97F63815 = {
+			isa = PBXBuildFile;
+			fileRef = 90E8F56612B0DF8D5B57C33FC4974C25;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		7708E07C85FF6C2BC400C15CCDB7EB1C = {
+			isa = PBXBuildFile;
+			fileRef = 3760C285221391A9EB384C0C8AADBB4F;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		7C818AE74E830311E61FF1A7E42D0713 = {
+			isa = PBXBuildFile;
+			fileRef = A18D673C826A75B6C65324EAD83EC7F9;
+			settings = {
+				COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0";
+			};
+		};
+		7EC9330EBDF327051B12E42AE8741B6E = {
+			isa = PBXBuildFile;
+			fileRef = 2D61F03BF3F67E84F192FDEA67570199;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		81840B35F7DD7F3CA4592E2B6893B933 = {
+			isa = PBXBuildFile;
+			fileRef = CAA250D6AAA3D67B08752113FC8DF203;
+		};
+		8FD0B67D285B107A1CE37F2F4301CF24 = {
+			isa = PBXBuildFile;
+			fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6;
+		};
+		9B365A3A01EF135485F43412F83C7C65 = {
+			isa = PBXBuildFile;
+			fileRef = A9509E5AF997ABA1DE2E492D1E5F713D;
+		};
+		9B3EEA3CFA303B0D28A8034C16BFDA15 = {
+			isa = PBXBuildFile;
+			fileRef = 1078A0F91AD20FFB4CFFC65A1DBCDA0E;
+		};
+		A2AC9FD0F42F638C48E72F88E8BC4C80 = {
+			isa = PBXBuildFile;
+			fileRef = 0FD50109FEE17B000FF75451A8EE85E1;
+		};
+		A46A3EAB602FB4840C5AB8493F86AE4F = {
+			isa = PBXBuildFile;
+			fileRef = 3A4F5F7C9EB82641C0A9064D825B0CA0;
+		};
+		AD01D434D8D120A3767270766AD30797 = {
+			isa = PBXBuildFile;
+			fileRef = 7DD9B0EAF347F66A580BE07B604B8350;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		AF9FDFE994A206795619E469B68C614E = {
+			isa = PBXBuildFile;
+			fileRef = 4E58139E714F2A7898E45F4DD5DDF75C;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		B71968ADC80D9CA74C57959B609E46F6 = {
+			isa = PBXBuildFile;
+			fileRef = 06637FA6DBD0A775186AAB786E285E41;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		BA88E88A631D6BD023521B7206CE6C25 = {
+			isa = PBXBuildFile;
+			fileRef = A07822FAB959C61684BD537E68D04E04;
+		};
+		C08DCA5180F1A15542694844C66B0EFB = {
+			isa = PBXBuildFile;
+			fileRef = E321CDEEBDF36B247CC45EC658769761;
+		};
+		C8F191C4FA3530AAEBAD2DDE2604DCF2 = {
+			isa = PBXBuildFile;
+			fileRef = B892D4C2927A23B3BD0EF1A53501EEEC;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		C8FC0929A42C36174794FE1ADFD620E3 = {
+			isa = PBXBuildFile;
+			fileRef = DB8F8CBE34920FCE3B688478F0C6E778;
+			settings = {
+				COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0";
+			};
+		};
+		CFB8C96C7D3F7331E409D296466B923A = {
+			isa = PBXBuildFile;
+			fileRef = C6C732FA131091B537A3C5014A8772D3;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		D2B61A78124FCB785E11A98BDD0471BC = {
+			isa = PBXBuildFile;
+			fileRef = 3D1A0132AD3581ACA7CCD276C16128B8;
+		};
+		D36BC9B0C925A5244E16EE70E4809EE6 = {
+			isa = PBXBuildFile;
+			fileRef = 0EA1294F0C88098F507174C436825C4F;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		DB67F30581299384A1C4AD03C0C382E0 = {
+			isa = PBXBuildFile;
+			fileRef = 54ADB89B1B12B673FE445CE01867A51A;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		E0AFA39DA4A01D8A8FE3D4EC76250F46 = {
+			isa = PBXBuildFile;
+			fileRef = 5B2E473C01A4BACDC6F7FEE92AE6EEFD;
+		};
+		E0C720836FBA4E75E3E57069219B7107 = {
+			isa = PBXBuildFile;
+			fileRef = AACCAE5FA81F91AC5F05AF6A8E985A77;
+		};
+		E330886E0E7C450E9669C4BD025D9ABD = {
+			isa = PBXBuildFile;
+			fileRef = 16AFC9F55FC0624502F90BA66D998E60;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		E40E50B03C60D676D66FAD62322C7B62 = {
+			isa = PBXBuildFile;
+			fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6;
+		};
+		EC6A73FAF1077D39B1A8A7A1A3F7E222 = {
+			isa = PBXBuildFile;
+			fileRef = 7F2F9A8728B97A7B7FF13DEEB0FEE242;
+		};
+		EDE12978B3BB8AD4A68940CB07878C96 = {
+			isa = PBXBuildFile;
+			fileRef = 32BFCC5FCF20BECEF409508768C21E64;
+		};
+		F0895B2A83F948153E1E5EA38A230B66 = {
+			isa = PBXBuildFile;
+			fileRef = C151156E503E41B49463E7787DFC8118;
+			settings = {
+				COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0";
+			};
+		};
+		F5A0569CB70F6F37A16E32EE210D0C66 = {
+			isa = PBXBuildFile;
+			fileRef = E72AF32A26C4A6FD835B549BCB23C6D8;
+			settings = {
+				COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0";
+			};
+		};
+		FF4A8EFE1154C1FFD58B48E978298871 = {
+			isa = PBXBuildFile;
+			fileRef = 387835DCE858A1B1E9476896BEEFD0DA;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1DD17E85625A671AE0CBF60A5963049 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
+			proxyType = 1;
+			remoteGlobalIDString = 23CF27B2BA6AC7125EFFEDA8C5AA819F;
+			remoteInfo = FMDB;
+		};
+		F56A73C227F762959A1522A8A46A2435 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
+			proxyType = 1;
+			remoteGlobalIDString = 5172ACAB7FEA22813859DC97CA0AA16F;
+			remoteInfo = ChameleonFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045A071A1EF9AB0AB44DB720E95010DB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = ChameleonConstants.h;
+			path = "Pod/Classes/Objective-C/ChameleonConstants.h";
+			sourceTree = "<group>";
+		};
+		0463B1214AF09C77CF8B591CB7419365 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "ChameleonFramework-prefix.pch";
+			sourceTree = "<group>";
+		};
+		06637FA6DBD0A775186AAB786E285E41 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "UIAppearance+Swift.h";
+			path = "Pod/Classes/Objective-C/UIAppearance+Swift.h";
+			sourceTree = "<group>";
+		};
+		0EA1294F0C88098F507174C436825C4F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "UIView+ChameleonPrivate.h";
+			path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h";
+			sourceTree = "<group>";
+		};
+		0FD50109FEE17B000FF75451A8EE85E1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = ChameleonShorthand.swift;
+			path = Pod/Classes/Swift/ChameleonShorthand.swift;
+			sourceTree = "<group>";
+		};
+		1078A0F91AD20FFB4CFFC65A1DBCDA0E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "UILabel+Chameleon.m";
+			path = "Pod/Classes/Objective-C/UILabel+Chameleon.m";
+			sourceTree = "<group>";
+		};
+		16AFC9F55FC0624502F90BA66D998E60 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = FMDatabaseQueue.h;
+			path = src/fmdb/FMDatabaseQueue.h;
+			sourceTree = "<group>";
+		};
+		2D61F03BF3F67E84F192FDEA67570199 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = Chameleon.h;
+			path = "Pod/Classes/Objective-C/Chameleon.h";
+			sourceTree = "<group>";
+		};
+		303CC18BBD4E72F9A606123E1B0B2439 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = ChameleonEnums.h;
+			path = "Pod/Classes/Objective-C/ChameleonEnums.h";
+			sourceTree = "<group>";
+		};
+		32BFCC5FCF20BECEF409508768C21E64 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = UIKit.framework;
+			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		373D64A4EAED9B0367E81178B0DC2739 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = ChameleonConstants.m;
+			path = "Pod/Classes/Objective-C/ChameleonConstants.m";
+			sourceTree = "<group>";
+		};
+		3760C285221391A9EB384C0C8AADBB4F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "UIImage+ChameleonPrivate.h";
+			path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h";
+			sourceTree = "<group>";
+		};
+		387835DCE858A1B1E9476896BEEFD0DA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "NSArray+Chameleon.h";
+			path = "Pod/Classes/Objective-C/NSArray+Chameleon.h";
+			sourceTree = "<group>";
+		};
+		3A4F5F7C9EB82641C0A9064D825B0CA0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "UIButton+Chameleon.m";
+			path = "Pod/Classes/Objective-C/UIButton+Chameleon.m";
+			sourceTree = "<group>";
+		};
+		3D1A0132AD3581ACA7CCD276C16128B8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "UIAppearance+Swift.m";
+			path = "Pod/Classes/Objective-C/UIAppearance+Swift.m";
+			sourceTree = "<group>";
+		};
+		3DD71E55B6EF5982BA17ABEA659C1245 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			path = "Pods-inception-acknowledgements.markdown";
+			sourceTree = "<group>";
+		};
+		4557153A41413AEAA3A5A5A7B01569BF = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = "Pods-inception-acknowledgements.plist";
+			sourceTree = "<group>";
+		};
+		456796D86E64578C4A0CD578D12726DA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = ChameleonFramework.modulemap;
+			sourceTree = "<group>";
+		};
+		4954D021FE9C80F006E1DEC1B638DA1D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "UINavigationController+Chameleon.m";
+			path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m";
+			sourceTree = "<group>";
+		};
+		4B32ADD0F0F4A490A6F964644D554869 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = FMResultSet.h;
+			path = src/fmdb/FMResultSet.h;
+			sourceTree = "<group>";
+		};
+		4E58139E714F2A7898E45F4DD5DDF75C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "UIViewController+Chameleon.h";
+			path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h";
+			sourceTree = "<group>";
+		};
+		54ADB89B1B12B673FE445CE01867A51A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-inception-umbrella.h";
+			sourceTree = "<group>";
+		};
+		5B2E473C01A4BACDC6F7FEE92AE6EEFD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "UIColor+ChameleonPrivate.m";
+			path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m";
+			sourceTree = "<group>";
+		};
+		5E43745004AE796D2F36291267CC651B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-inception.release.xcconfig";
+			sourceTree = "<group>";
+		};
+		67022E8D9CAA3A99269823015E98622B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "UINavigationController+Chameleon.h";
+			path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h";
+			sourceTree = "<group>";
+		};
+		6D05F16B709039268E4E657E60CB7D66 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "UIImage+ChameleonPrivate.m";
+			path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m";
+			sourceTree = "<group>";
+		};
+		6E678C02341A8A83AE5633BDF7372328 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Pods_inception.framework;
+			path = "Pods-inception.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7BF684EA21206EBCD133EABF31A2799A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		7DB7139E064B93625B46C602DE6B63C5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = ChameleonFramework.xcconfig;
+			sourceTree = "<group>";
+		};
+		7DD9B0EAF347F66A580BE07B604B8350 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "FMDB-umbrella.h";
+			sourceTree = "<group>";
+		};
+		7F2F9A8728B97A7B7FF13DEEB0FEE242 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-inception-dummy.m";
+			sourceTree = "<group>";
+		};
+		88DB576E2FFFB70B4DF2788F82829180 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = FMDB.xcconfig;
+			sourceTree = "<group>";
+		};
+		8C0691131C19D0AFB3EBE5AA0F38FDBE = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = FMDB.h;
+			path = src/fmdb/FMDB.h;
+			sourceTree = "<group>";
+		};
+		8D31AF728F56D0CAFFECA7DF51E2E0E6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		90E8F56612B0DF8D5B57C33FC4974C25 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = FMDatabaseAdditions.h;
+			path = src/fmdb/FMDatabaseAdditions.h;
+			sourceTree = "<group>";
+		};
+		9199EDD909BB238563E1C5AE5E6E805C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		93530C7B75C0EB2BF2A709F64A663DE9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-inception-frameworks.sh";
+			sourceTree = "<group>";
+		};
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 = {
+			isa = PBXFileReference;
+			explicitFileType = text.script.ruby;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			name = Podfile;
+			path = ../Podfile;
+			sourceTree = SOURCE_ROOT;
+			xcLanguageSpecificationIdentifier = xcode.lang.ruby;
+		};
+		9600A06643326053011FE2E530AAEA44 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = FMDB.modulemap;
+			sourceTree = "<group>";
+		};
+		99451D0584B06B370DD7C61530E39063 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = "Pods-inception.modulemap";
+			sourceTree = "<group>";
+		};
+		99E56640B57456BE26B6A80F52AEE63A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = FMDatabaseQueue.m;
+			path = src/fmdb/FMDatabaseQueue.m;
+			sourceTree = "<group>";
+		};
+		9E8C1EA9995AC90AD55C91998F7A2CE1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = Chameleon_.h;
+			path = "Pod/Classes/Objective-C/Chameleon_.h";
+			sourceTree = "<group>";
+		};
+		A07822FAB959C61684BD537E68D04E04 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "FMDB-dummy.m";
+			sourceTree = "<group>";
+		};
+		A18D673C826A75B6C65324EAD83EC7F9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = FMResultSet.m;
+			path = src/fmdb/FMResultSet.m;
+			sourceTree = "<group>";
+		};
+		A9509E5AF997ABA1DE2E492D1E5F713D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = Chameleon_.m;
+			path = "Pod/Classes/Objective-C/Chameleon_.m";
+			sourceTree = "<group>";
+		};
+		AACCAE5FA81F91AC5F05AF6A8E985A77 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "ChameleonFramework-dummy.m";
+			sourceTree = "<group>";
+		};
+		AC30723764E82F4218B059B78F5D36FA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "ChameleonFramework-umbrella.h";
+			sourceTree = "<group>";
+		};
+		AE01733D3B45055319CE58ADDB27B17A = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = ChameleonFramework.framework;
+			path = ChameleonFramework.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B20834BA957A778555D51DEF77A97166 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "FMDB-prefix.pch";
+			sourceTree = "<group>";
+		};
+		B892D4C2927A23B3BD0EF1A53501EEEC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "UIButton+Chameleon.h";
+			path = "Pod/Classes/Objective-C/UIButton+Chameleon.h";
+			sourceTree = "<group>";
+		};
+		B8AB62CA671CD95D1336F2D269E188F2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "UIColor+ChameleonPrivate.h";
+			path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h";
+			sourceTree = "<group>";
+		};
+		BF49675478D9AD11CE6C6DC3FF36F95A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "UIColor+Chameleon.m";
+			path = "Pod/Classes/Objective-C/UIColor+Chameleon.m";
+			sourceTree = "<group>";
+		};
+		C071A45FC1B3798180192B18424D354C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		C151156E503E41B49463E7787DFC8118 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = FMDatabaseAdditions.m;
+			path = src/fmdb/FMDatabaseAdditions.m;
+			sourceTree = "<group>";
+		};
+		C6C732FA131091B537A3C5014A8772D3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "UIColor+Chameleon.h";
+			path = "Pod/Classes/Objective-C/UIColor+Chameleon.h";
+			sourceTree = "<group>";
+		};
+		C9667B1984827C69BF9DFFFE92714EBE = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "UIViewController+Chameleon.m";
+			path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m";
+			sourceTree = "<group>";
+		};
+		CAA250D6AAA3D67B08752113FC8DF203 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = QuartzCore.framework;
+			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		D64FB18347D6A19272A7C03568F92A4A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "NSArray+Chameleon.m";
+			path = "Pod/Classes/Objective-C/NSArray+Chameleon.m";
+			sourceTree = "<group>";
+		};
+		DB8F8CBE34920FCE3B688478F0C6E778 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = FMDatabasePool.m;
+			path = src/fmdb/FMDatabasePool.m;
+			sourceTree = "<group>";
+		};
+		DE46696076D571A0FD1BBE1D730AC88C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-inception.debug.xcconfig";
+			sourceTree = "<group>";
+		};
+		E0A2D4D7EC8405D10BD5324A4345A0B0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = FMDatabasePool.h;
+			path = src/fmdb/FMDatabasePool.h;
+			sourceTree = "<group>";
+		};
+		E3212D7BC0710FE50E49B5AD2D9C0D0F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreGraphics.framework;
+			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		E321CDEEBDF36B247CC45EC658769761 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "UIView+ChameleonPrivate.m";
+			path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m";
+			sourceTree = "<group>";
+		};
+		E72AF32A26C4A6FD835B549BCB23C6D8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = FMDatabase.m;
+			path = src/fmdb/FMDatabase.m;
+			sourceTree = "<group>";
+		};
+		EF60EA39994D0619D0BCF81A54506319 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = FMDB.framework;
+			path = FMDB.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EFF78E67FD988386A61658710EF18489 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = FMDatabase.h;
+			path = src/fmdb/FMDatabase.h;
+			sourceTree = "<group>";
+		};
+		F5D532B1F909826130D3658AF6D89AB5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = ChameleonMacros.h;
+			path = "Pod/Classes/Objective-C/ChameleonMacros.h";
+			sourceTree = "<group>";
+		};
+		FCE8E091770A6A61D8BC8C0FE6DF1C63 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "UILabel+Chameleon.h";
+			path = "Pod/Classes/Objective-C/UILabel+Chameleon.h";
+			sourceTree = "<group>";
+		};
+		FD1EBA858519F1FF99103E2893DDEB81 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-inception-resources.sh";
+			sourceTree = "<group>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07163A0956D3012D6BF74E0B0E4CE17D = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD0B67D285B107A1CE37F2F4301CF24,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EE3410E7243BB72C2DE201CED15CC0 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559D2A58E257644BD0AB1D35FA35643B,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1A73E30C8322A70D5DCD63B04CAE84 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1736C9EB167121B7B4033DB3304686AE,
+				E40E50B03C60D676D66FAD62322C7B62,
+				81840B35F7DD7F3CA4592E2B6893B933,
+				EDE12978B3BB8AD4A68940CB07878C96,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BAAB471E0E05B4B7164CD72A42982A0 = {
+			isa = PBXGroup;
+			children = (
+				2D61F03BF3F67E84F192FDEA67570199,
+				9E8C1EA9995AC90AD55C91998F7A2CE1,
+				A9509E5AF997ABA1DE2E492D1E5F713D,
+				045A071A1EF9AB0AB44DB720E95010DB,
+				373D64A4EAED9B0367E81178B0DC2739,
+				303CC18BBD4E72F9A606123E1B0B2439,
+				F5D532B1F909826130D3658AF6D89AB5,
+				387835DCE858A1B1E9476896BEEFD0DA,
+				D64FB18347D6A19272A7C03568F92A4A,
+				06637FA6DBD0A775186AAB786E285E41,
+				3D1A0132AD3581ACA7CCD276C16128B8,
+				B892D4C2927A23B3BD0EF1A53501EEEC,
+				3A4F5F7C9EB82641C0A9064D825B0CA0,
+				C6C732FA131091B537A3C5014A8772D3,
+				BF49675478D9AD11CE6C6DC3FF36F95A,
+				B8AB62CA671CD95D1336F2D269E188F2,
+				5B2E473C01A4BACDC6F7FEE92AE6EEFD,
+				3760C285221391A9EB384C0C8AADBB4F,
+				6D05F16B709039268E4E657E60CB7D66,
+				FCE8E091770A6A61D8BC8C0FE6DF1C63,
+				1078A0F91AD20FFB4CFFC65A1DBCDA0E,
+				67022E8D9CAA3A99269823015E98622B,
+				4954D021FE9C80F006E1DEC1B638DA1D,
+				0EA1294F0C88098F507174C436825C4F,
+				E321CDEEBDF36B247CC45EC658769761,
+				4E58139E714F2A7898E45F4DD5DDF75C,
+				C9667B1984827C69BF9DFFFE92714EBE,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		0D02AF7F97B689B7F3529DE81A7BCA3B = {
+			isa = PBXGroup;
+			children = (
+				3C66312A3433F859918308B74EA6B494,
+				7C00DB6C621B95A961B017FAD6507148,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B = {
+			isa = PBXGroup;
+			children = (
+				BE9CAD94F3ADC0A91CD07526E38EDDFA,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1631ACB12FD74BFF740B66EDD0074081 = {
+			isa = PBXGroup;
+			children = (
+				0FD50109FEE17B000FF75451A8EE85E1,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		2C128A05F84B7DCBFA79DB63C886EA15 = {
+			isa = PBXGroup;
+			children = (
+				7BF684EA21206EBCD133EABF31A2799A,
+				99451D0584B06B370DD7C61530E39063,
+				3DD71E55B6EF5982BA17ABEA659C1245,
+				4557153A41413AEAA3A5A5A7B01569BF,
+				7F2F9A8728B97A7B7FF13DEEB0FEE242,
+				93530C7B75C0EB2BF2A709F64A663DE9,
+				FD1EBA858519F1FF99103E2893DDEB81,
+				54ADB89B1B12B673FE445CE01867A51A,
+				DE46696076D571A0FD1BBE1D730AC88C,
+				5E43745004AE796D2F36291267CC651B,
+			);
+			name = "Pods-inception";
+			path = "Target Support Files/Pods-inception";
+			sourceTree = "<group>";
+		};
+		3C66312A3433F859918308B74EA6B494 = {
+			isa = PBXGroup;
+			children = (
+				EFF78E67FD988386A61658710EF18489,
+				E72AF32A26C4A6FD835B549BCB23C6D8,
+				90E8F56612B0DF8D5B57C33FC4974C25,
+				C151156E503E41B49463E7787DFC8118,
+				E0A2D4D7EC8405D10BD5324A4345A0B0,
+				DB8F8CBE34920FCE3B688478F0C6E778,
+				16AFC9F55FC0624502F90BA66D998E60,
+				99E56640B57456BE26B6A80F52AEE63A,
+				8C0691131C19D0AFB3EBE5AA0F38FDBE,
+				4B32ADD0F0F4A490A6F964644D554869,
+				A18D673C826A75B6C65324EAD83EC7F9,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		4947C3CF764831930ABCE35F8A5F6B80 = {
+			isa = PBXGroup;
+			children = (
+				0BAAB471E0E05B4B7164CD72A42982A0,
+				E43C531A96ACFAA6B31900DE85E6EE35,
+				1631ACB12FD74BFF740B66EDD0074081,
+			);
+			name = ChameleonFramework;
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		7C00DB6C621B95A961B017FAD6507148 = {
+			isa = PBXGroup;
+			children = (
+				9600A06643326053011FE2E530AAEA44,
+				88DB576E2FFFB70B4DF2788F82829180,
+				A07822FAB959C61684BD537E68D04E04,
+				B20834BA957A778555D51DEF77A97166,
+				7DD9B0EAF347F66A580BE07B604B8350,
+				C071A45FC1B3798180192B18424D354C,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73,
+				14B8B9B15ECBE87983FF987239AB2D7B,
+				C7667B18E03C782FC00C75F63D37411C,
+				CC20DE3BACF00294D6818D171CDDC507,
+				B97697B94FF407E8FB53E80C8BEBF33A,
+			);
+			sourceTree = "<group>";
+		};
+		B97697B94FF407E8FB53E80C8BEBF33A = {
+			isa = PBXGroup;
+			children = (
+				2C128A05F84B7DCBFA79DB63C886EA15,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE9CAD94F3ADC0A91CD07526E38EDDFA = {
+			isa = PBXGroup;
+			children = (
+				E3212D7BC0710FE50E49B5AD2D9C0D0F,
+				8D31AF728F56D0CAFFECA7DF51E2E0E6,
+				CAA250D6AAA3D67B08752113FC8DF203,
+				32BFCC5FCF20BECEF409508768C21E64,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7667B18E03C782FC00C75F63D37411C = {
+			isa = PBXGroup;
+			children = (
+				4947C3CF764831930ABCE35F8A5F6B80,
+				0D02AF7F97B689B7F3529DE81A7BCA3B,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC20DE3BACF00294D6818D171CDDC507 = {
+			isa = PBXGroup;
+			children = (
+				AE01733D3B45055319CE58ADDB27B17A,
+				EF60EA39994D0619D0BCF81A54506319,
+				6E678C02341A8A83AE5633BDF7372328,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E43C531A96ACFAA6B31900DE85E6EE35 = {
+			isa = PBXGroup;
+			children = (
+				456796D86E64578C4A0CD578D12726DA,
+				7DB7139E064B93625B46C602DE6B63C5,
+				AACCAE5FA81F91AC5F05AF6A8E985A77,
+				0463B1214AF09C77CF8B591CB7419365,
+				AC30723764E82F4218B059B78F5D36FA,
+				9199EDD909BB238563E1C5AE5E6E805C,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F23DDF08FF6259A7504629076AAB435 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67F30581299384A1C4AD03C0C382E0,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59890BED3AF6CEBA2D3BC9A5C45EFBA4 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC9330EBDF327051B12E42AE8741B6E,
+				738E4E0555CE3C233C400AE87B9887E4,
+				097AE4014349090D14C6C5637F8A3464,
+				4A0E71E9E2BD86AA8CB6077A95CDC034,
+				64C89D98B9D3B9C57971E1E137233980,
+				5CCC419BB423F48192FBA3C7D7D6B7DA,
+				FF4A8EFE1154C1FFD58B48E978298871,
+				B71968ADC80D9CA74C57959B609E46F6,
+				C8F191C4FA3530AAEBAD2DDE2604DCF2,
+				CFB8C96C7D3F7331E409D296466B923A,
+				4194C2418EEF62E01342A820B5EF9C71,
+				7708E07C85FF6C2BC400C15CCDB7EB1C,
+				00967A34C0778275E41D1CBA32E398F8,
+				6FFDAD2F800BC27FCF40E92B71D88CF3,
+				D36BC9B0C925A5244E16EE70E4809EE6,
+				AF9FDFE994A206795619E469B68C614E,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A1B98F16F13F2F72C375E44D51EE8A = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F61BE79D4B46C119C136EDE960CE78C,
+				74695802583BDB0C0818AC1B97F63815,
+				6C63E2BEBE2BC08BD46F6A91D0A08143,
+				E330886E0E7C450E9669C4BD025D9ABD,
+				AD01D434D8D120A3767270766AD30797,
+				3ECC23FFAE400A6B2658AAF2990D83BE,
+				183A0D8AF38E0EE20E47F1FEF9B37327,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23CF27B2BA6AC7125EFFEDA8C5AA819F = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E130BB4A68655453C9FDC5692FA44094;
+			buildPhases = (
+				6F019F4B57C689E3B448935B617CFF76,
+				07163A0956D3012D6BF74E0B0E4CE17D,
+				A8A1B98F16F13F2F72C375E44D51EE8A,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = EF60EA39994D0619D0BCF81A54506319;
+			productType = "com.apple.product-type.framework";
+		};
+		5172ACAB7FEA22813859DC97CA0AA16F = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E21BC30675BE10E5FB0192B03002EA;
+			buildPhases = (
+				A007306A9F7EAF30B21BFDB4E741628B,
+				FC1A73E30C8322A70D5DCD63B04CAE84,
+				59890BED3AF6CEBA2D3BC9A5C45EFBA4,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = AE01733D3B45055319CE58ADDB27B17A;
+			productType = "com.apple.product-type.framework";
+		};
+		FB633398E3A50B1159AF0635C5A9FD05 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CF8B03D9F7DCF4AF2E2A7E17299CA6;
+			buildPhases = (
+				88542B1C8C477B46B7289BD4581167FB,
+				F8EE3410E7243BB72C2DE201CED15CC0,
+				0F23DDF08FF6259A7504629076AAB435,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B97C3D02209A9ABB41F6E8B4F78916EE,
+				22F0731716DD8CC99F16237E3267A183,
+			);
+			name = "Pods-inception";
+			productName = "Pods-inception";
+			productReference = 6E678C02341A8A83AE5633BDF7372328;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CC20DE3BACF00294D6818D171CDDC507;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				5172ACAB7FEA22813859DC97CA0AA16F,
+				23CF27B2BA6AC7125EFFEDA8C5AA819F,
+				FB633398E3A50B1159AF0635C5A9FD05,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F019F4B57C689E3B448935B617CFF76 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A0569CB70F6F37A16E32EE210D0C66,
+				F0895B2A83F948153E1E5EA38A230B66,
+				C8FC0929A42C36174794FE1ADFD620E3,
+				0D619A711F71058C9238B17E9AF48AFC,
+				BA88E88A631D6BD023521B7206CE6C25,
+				7C818AE74E830311E61FF1A7E42D0713,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88542B1C8C477B46B7289BD4581167FB = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6A73FAF1077D39B1A8A7A1A3F7E222,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A007306A9F7EAF30B21BFDB4E741628B = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B365A3A01EF135485F43412F83C7C65,
+				1236ECB96A915EC617957A42838CDD7B,
+				E0C720836FBA4E75E3E57069219B7107,
+				A2AC9FD0F42F638C48E72F88E8BC4C80,
+				24E7D20FD204AF7AACB30A3B7C16388C,
+				D2B61A78124FCB785E11A98BDD0471BC,
+				A46A3EAB602FB4840C5AB8493F86AE4F,
+				01C6F32401BCBE9FF9B3C095B031D92B,
+				E0AFA39DA4A01D8A8FE3D4EC76250F46,
+				15E113F19F49C0C0472242BD6E849A1B,
+				9B3EEA3CFA303B0D28A8034C16BFDA15,
+				4C6CEBA607BEA909A9CCB80C6AB6AE88,
+				C08DCA5180F1A15542694844C66B0EFB,
+				5177B3B95985D0A2CF8376A6FD4488C2,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22F0731716DD8CC99F16237E3267A183 = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 23CF27B2BA6AC7125EFFEDA8C5AA819F;
+			targetProxy = E1DD17E85625A671AE0CBF60A5963049;
+		};
+		B97C3D02209A9ABB41F6E8B4F78916EE = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 5172ACAB7FEA22813859DC97CA0AA16F;
+			targetProxy = F56A73C227F762959A1522A8A46A2435;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F6FEF36A301B64475A428603BF6DFA2 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB7139E064B93625B46C602DE6B63C5;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50FFA082409BE7929898A74E93CF3CF4 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DB576E2FFFB70B4DF2788F82829180;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		60CA36FA3288193BF7AFA9AF658E5ED3 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB7139E064B93625B46C602DE6B63C5;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		743BE1BC3490ED4397447E90CA6FB247 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE46696076D571A0FD1BBE1D730AC88C;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-inception/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inception/Pods-inception.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_inception;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE8CA29D96EC39F783B283001608A24 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E43745004AE796D2F36291267CC651B;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-inception/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inception/Pods-inception.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_inception;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F48968E4F773DDB9722B55E0A4B8949B = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DB576E2FFFB70B4DF2788F82829180;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7,
+				B7324857C38B065FEB1EEE3105C2367A,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E21BC30675BE10E5FB0192B03002EA = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6FEF36A301B64475A428603BF6DFA2,
+				60CA36FA3288193BF7AFA9AF658E5ED3,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75CF8B03D9F7DCF4AF2E2A7E17299CA6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743BE1BC3490ED4397447E90CA6FB247,
+				EEE8CA29D96EC39F783B283001608A24,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E130BB4A68655453C9FDC5692FA44094 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48968E4F773DDB9722B55E0A4B8949B,
+				50FFA082409BE7929898A74E93CF3CF4,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E;
+}
